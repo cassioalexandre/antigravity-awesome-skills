@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1272,
+  "total": 1250,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -161,6 +161,31 @@
         "execution"
       ],
       "path": "skills/ab-test-setup/SKILL.md"
+    },
+    {
+      "id": "acceptance-orchestrator",
+      "name": "acceptance-orchestrator",
+      "description": "Use when a coding task should be driven end-to-end from issue intake through implementation, review, deployment, and acceptance verification with minimal human re-intervention.",
+      "category": "infrastructure",
+      "tags": [
+        "acceptance",
+        "orchestrator"
+      ],
+      "triggers": [
+        "acceptance",
+        "orchestrator",
+        "coding",
+        "task",
+        "should",
+        "driven",
+        "issue",
+        "intake",
+        "through",
+        "review",
+        "deployment",
+        "verification"
+      ],
+      "path": "skills/acceptance-orchestrator/SKILL.md"
     },
     {
       "id": "accessibility-compliance-accessibility-audit",
@@ -783,6 +808,31 @@
         "agent"
       ],
       "path": "skills/ai-engineer/SKILL.md"
+    },
+    {
+      "id": "ai-md",
+      "name": "ai-md",
+      "description": "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance.",
+      "category": "security",
+      "tags": [
+        "ai",
+        "md"
+      ],
+      "triggers": [
+        "ai",
+        "md",
+        "convert",
+        "human",
+        "written",
+        "claude",
+        "native",
+        "structured",
+        "label",
+        "format",
+        "battle",
+        "tested"
+      ],
+      "path": "skills/ai-md/SKILL.md"
     },
     {
       "id": "ai-ml",
@@ -2383,6 +2433,34 @@
       "path": "skills/audit-context-building/SKILL.md"
     },
     {
+      "id": "audit-skills",
+      "name": "audit-skills",
+      "description": "Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS).",
+      "category": "security",
+      "tags": [
+        "security",
+        "audit",
+        "skills",
+        "bundles",
+        "cross-platform"
+      ],
+      "triggers": [
+        "security",
+        "audit",
+        "skills",
+        "bundles",
+        "cross-platform",
+        "auditor",
+        "ai",
+        "performs",
+        "non",
+        "intrusive",
+        "static",
+        "analysis"
+      ],
+      "path": "skills/audit-skills/SKILL.md"
+    },
+    {
       "id": "auri-core",
       "name": "auri-core",
       "description": "Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north...",
@@ -2432,21 +2510,6 @@
         "control"
       ],
       "path": "skills/auth-implementation-patterns/SKILL.md"
-    },
-    {
-      "id": "automate-whatsapp",
-      "name": "automate-whatsapp",
-      "description": "Automate Whatsapp",
-      "category": "general",
-      "tags": [
-        "automate",
-        "whatsapp"
-      ],
-      "triggers": [
-        "automate",
-        "whatsapp"
-      ],
-      "path": "skills/automate-whatsapp/SKILL.md"
     },
     {
       "id": "autonomous-agent-patterns",
@@ -2596,54 +2659,6 @@
       "path": "skills/avoid-ai-writing/SKILL.md"
     },
     {
-      "id": "aws-agentic-ai",
-      "name": "aws-agentic-ai",
-      "description": "Aws Agentic Ai",
-      "category": "data-ai",
-      "tags": [
-        "aws",
-        "agentic",
-        "ai"
-      ],
-      "triggers": [
-        "aws",
-        "agentic",
-        "ai"
-      ],
-      "path": "skills/aws-agentic-ai/SKILL.md"
-    },
-    {
-      "id": "aws-cdk-development",
-      "name": "aws-cdk-development",
-      "description": "Aws Cdk Development",
-      "category": "general",
-      "tags": [
-        "aws",
-        "cdk"
-      ],
-      "triggers": [
-        "aws",
-        "cdk",
-        "development"
-      ],
-      "path": "skills/aws-cdk-development/SKILL.md"
-    },
-    {
-      "id": "aws-common",
-      "name": "aws-common",
-      "description": "Aws Common",
-      "category": "general",
-      "tags": [
-        "aws",
-        "common"
-      ],
-      "triggers": [
-        "aws",
-        "common"
-      ],
-      "path": "skills/aws-common/SKILL.md"
-    },
-    {
       "id": "aws-cost-cleanup",
       "name": "aws-cost-cleanup",
       "description": "Automated cleanup of unused AWS resources to reduce costs",
@@ -2666,23 +2681,6 @@
       "path": "skills/aws-cost-cleanup/SKILL.md"
     },
     {
-      "id": "aws-cost-ops",
-      "name": "aws-cost-ops",
-      "description": "Aws Cost Ops",
-      "category": "general",
-      "tags": [
-        "aws",
-        "cost",
-        "ops"
-      ],
-      "triggers": [
-        "aws",
-        "cost",
-        "ops"
-      ],
-      "path": "skills/aws-cost-ops/SKILL.md"
-    },
-    {
       "id": "aws-cost-optimizer",
       "name": "aws-cost-optimizer",
       "description": "Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer",
@@ -2703,23 +2701,6 @@
         "explorer"
       ],
       "path": "skills/aws-cost-optimizer/SKILL.md"
-    },
-    {
-      "id": "aws-mcp-setup",
-      "name": "aws-mcp-setup",
-      "description": "Aws Mcp Setup",
-      "category": "general",
-      "tags": [
-        "aws",
-        "mcp",
-        "setup"
-      ],
-      "triggers": [
-        "aws",
-        "mcp",
-        "setup"
-      ],
-      "path": "skills/aws-mcp-setup/SKILL.md"
     },
     {
       "id": "aws-penetration-testing",
@@ -2770,23 +2751,6 @@
         "dynamodb"
       ],
       "path": "skills/aws-serverless/SKILL.md"
-    },
-    {
-      "id": "aws-serverless-eda",
-      "name": "aws-serverless-eda",
-      "description": "Aws Serverless Eda",
-      "category": "general",
-      "tags": [
-        "aws",
-        "serverless",
-        "eda"
-      ],
-      "triggers": [
-        "aws",
-        "serverless",
-        "eda"
-      ],
-      "path": "skills/aws-serverless-eda/SKILL.md"
     },
     {
       "id": "aws-skills",
@@ -6540,6 +6504,30 @@
       "path": "skills/blog-writing-guide/SKILL.md"
     },
     {
+      "id": "blueprint",
+      "name": "blueprint",
+      "description": "Turn a one-line objective into a step-by-step construction plan any coding agent can execute cold. Each step has a self-contained context brief — a fresh agent in a new session can pick up any step without reading prior steps.",
+      "category": "general",
+      "tags": [
+        "blueprint"
+      ],
+      "triggers": [
+        "blueprint",
+        "turn",
+        "one",
+        "line",
+        "objective",
+        "step",
+        "construction",
+        "plan",
+        "any",
+        "coding",
+        "agent",
+        "execute"
+      ],
+      "path": "skills/blueprint/SKILL.md"
+    },
+    {
       "id": "box-automation",
       "name": "box-automation",
       "description": "Automate Box cloud storage operations including file upload/download, search, folder management, sharing, collaborations, and metadata queries via Rube MCP (Composio). Always search tools first for...",
@@ -6826,23 +6814,6 @@
         "components"
       ],
       "path": "skills/building-native-ui/SKILL.md"
-    },
-    {
-      "id": "building-secure-contracts",
-      "name": "building-secure-contracts",
-      "description": "Building Secure Contracts",
-      "category": "general",
-      "tags": [
-        "building",
-        "secure",
-        "contracts"
-      ],
-      "triggers": [
-        "building",
-        "secure",
-        "contracts"
-      ],
-      "path": "skills/building-secure-contracts/SKILL.md"
     },
     {
       "id": "bullmq-specialist",
@@ -8036,6 +8007,32 @@
         "sms"
       ],
       "path": "skills/close-automation/SKILL.md"
+    },
+    {
+      "id": "closed-loop-delivery",
+      "name": "closed-loop-delivery",
+      "description": "Use when a coding task must be completed against explicit acceptance criteria with minimal user re-intervention across implementation, review feedback, deployment, and runtime verification.",
+      "category": "infrastructure",
+      "tags": [
+        "closed",
+        "loop",
+        "delivery"
+      ],
+      "triggers": [
+        "closed",
+        "loop",
+        "delivery",
+        "coding",
+        "task",
+        "must",
+        "completed",
+        "against",
+        "explicit",
+        "acceptance",
+        "criteria",
+        "minimal"
+      ],
+      "path": "skills/closed-loop-delivery/SKILL.md"
     },
     {
       "id": "cloud-architect",
@@ -9575,6 +9572,32 @@
       "path": "skills/create-branch/SKILL.md"
     },
     {
+      "id": "create-issue-gate",
+      "name": "create-issue-gate",
+      "description": "Use when starting a new implementation task and an issue must be created with strict acceptance criteria gating before execution.",
+      "category": "general",
+      "tags": [
+        "create",
+        "issue",
+        "gate"
+      ],
+      "triggers": [
+        "create",
+        "issue",
+        "gate",
+        "starting",
+        "new",
+        "task",
+        "must",
+        "created",
+        "strict",
+        "acceptance",
+        "criteria",
+        "gating"
+      ],
+      "path": "skills/create-issue-gate/SKILL.md"
+    },
+    {
       "id": "create-pr",
       "name": "create-pr",
       "description": "Alias for sentry-skills:pr-writer. Use when users explicitly ask for \"create-pr\" or reference the legacy skill name. Redirects to the canonical PR writing workflow.",
@@ -9700,21 +9723,6 @@
         "net"
       ],
       "path": "skills/csharp-pro/SKILL.md"
-    },
-    {
-      "id": "culture-index",
-      "name": "culture-index",
-      "description": "Culture Index",
-      "category": "general",
-      "tags": [
-        "culture",
-        "index"
-      ],
-      "triggers": [
-        "culture",
-        "index"
-      ],
-      "path": "skills/culture-index/SKILL.md"
     },
     {
       "id": "customer-support",
@@ -9986,21 +9994,6 @@
         "track"
       ],
       "path": "skills/data-structure-protocol/SKILL.md"
-    },
-    {
-      "id": "data-visualization",
-      "name": "data-visualization",
-      "description": "Data Visualization",
-      "category": "data-ai",
-      "tags": [
-        "data",
-        "visualization"
-      ],
-      "triggers": [
-        "data",
-        "visualization"
-      ],
-      "path": "skills/data-visualization/SKILL.md"
     },
     {
       "id": "database",
@@ -10873,6 +10866,26 @@
         "observability"
       ],
       "path": "skills/devops-troubleshooter/SKILL.md"
+    },
+    {
+      "id": "diary",
+      "name": "diary",
+      "description": "Unified Diary System: A context-preserving automated logger for multi-project development.",
+      "category": "general",
+      "tags": [
+        "diary"
+      ],
+      "triggers": [
+        "diary",
+        "unified",
+        "context",
+        "preserving",
+        "automated",
+        "logger",
+        "multi",
+        "development"
+      ],
+      "path": "skills/diary/SKILL.md"
     },
     {
       "id": "differential-review",
@@ -12171,6 +12184,32 @@
         "checkpoints"
       ],
       "path": "skills/executing-plans/SKILL.md"
+    },
+    {
+      "id": "explain-like-socrates",
+      "name": "explain-like-socrates",
+      "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.",
+      "category": "general",
+      "tags": [
+        "explain",
+        "like",
+        "socrates"
+      ],
+      "triggers": [
+        "explain",
+        "like",
+        "socrates",
+        "explains",
+        "concepts",
+        "socratic",
+        "style",
+        "dialogue",
+        "user",
+        "asks",
+        "teach",
+        "understand"
+      ],
+      "path": "skills/explain-like-socrates/SKILL.md"
     },
     {
       "id": "expo-api-routes",
@@ -13816,7 +13855,7 @@
     {
       "id": "frontend-slides",
       "name": "frontend-slides",
-      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual...",
+      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
       "category": "development",
       "tags": [
         "frontend",
@@ -13833,8 +13872,7 @@
         "scratch",
         "converting",
         "powerpoint",
-        "files",
-        "user"
+        "files"
       ],
       "path": "skills/frontend-slides/SKILL.md"
     },
@@ -14852,23 +14890,6 @@
       "path": "skills/golang-pro/SKILL.md"
     },
     {
-      "id": "golang-security-auditor",
-      "name": "golang-security-auditor",
-      "description": "Golang Security Auditor",
-      "category": "security",
-      "tags": [
-        "golang",
-        "security",
-        "auditor"
-      ],
-      "triggers": [
-        "golang",
-        "security",
-        "auditor"
-      ],
-      "path": "skills/golang-security-auditor/SKILL.md"
-    },
-    {
       "id": "google-analytics-automation",
       "name": "google-analytics-automation",
       "description": "Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events. Always search tools first for current schemas.",
@@ -15114,34 +15135,6 @@
         "time"
       ],
       "path": "skills/graphql-architect/SKILL.md"
-    },
-    {
-      "id": "great-tables",
-      "name": "great-tables",
-      "description": "Great Tables",
-      "category": "general",
-      "tags": [
-        "great",
-        "tables"
-      ],
-      "triggers": [
-        "great",
-        "tables"
-      ],
-      "path": "skills/great-tables/SKILL.md"
-    },
-    {
-      "id": "grimoire",
-      "name": "grimoire",
-      "description": "Grimoire",
-      "category": "general",
-      "tags": [
-        "grimoire"
-      ],
-      "triggers": [
-        "grimoire"
-      ],
-      "path": "skills/grimoire/SKILL.md"
     },
     {
       "id": "growth-engine",
@@ -16413,21 +16406,6 @@
       "path": "skills/instagram-automation/SKILL.md"
     },
     {
-      "id": "integrate-whatsapp",
-      "name": "integrate-whatsapp",
-      "description": "Integrate Whatsapp",
-      "category": "general",
-      "tags": [
-        "integrate",
-        "whatsapp"
-      ],
-      "triggers": [
-        "integrate",
-        "whatsapp"
-      ],
-      "path": "skills/integrate-whatsapp/SKILL.md"
-    },
-    {
       "id": "interactive-portfolio",
       "name": "interactive-portfolio",
       "description": "Expert in building portfolios that actually land jobs and clients - not just showing work, but creating memorable experiences. Covers developer portfolios, designer portfolios, creative portfolios,...",
@@ -16529,6 +16507,35 @@
       "path": "skills/internal-comms-community/SKILL.md"
     },
     {
+      "id": "interview-coach",
+      "name": "interview-coach",
+      "description": "Full job search coaching system — JD decoding, resume, storybank, mock interviews, transcript analysis, comp negotiation. 23 commands, persistent state.",
+      "category": "general",
+      "tags": [
+        "interview",
+        "job-search",
+        "coaching",
+        "career",
+        "storybank",
+        "negotiation"
+      ],
+      "triggers": [
+        "interview",
+        "job-search",
+        "coaching",
+        "career",
+        "storybank",
+        "negotiation",
+        "coach",
+        "full",
+        "job",
+        "search",
+        "jd",
+        "decoding"
+      ],
+      "path": "skills/interview-coach/SKILL.md"
+    },
+    {
       "id": "inventory-demand-planning",
       "name": "inventory-demand-planning",
       "description": "Codified expertise for demand forecasting, safety stock optimisation, replenishment planning, and promotional lift estimation at multi-location retailers.",
@@ -16619,21 +16626,6 @@
         "implementing"
       ],
       "path": "skills/istio-traffic-management/SKILL.md"
-    },
-    {
-      "id": "it-depends",
-      "name": "it-depends",
-      "description": "It Depends",
-      "category": "general",
-      "tags": [
-        "it",
-        "depends"
-      ],
-      "triggers": [
-        "it",
-        "depends"
-      ],
-      "path": "skills/it-depends/SKILL.md"
     },
     {
       "id": "iterate-pr",
@@ -16854,19 +16846,6 @@
       "path": "skills/junta-leiloeiros/SKILL.md"
     },
     {
-      "id": "jupyter-workflow",
-      "name": "jupyter-workflow",
-      "description": "Jupyter Workflow",
-      "category": "workflow",
-      "tags": [
-        "jupyter"
-      ],
-      "triggers": [
-        "jupyter"
-      ],
-      "path": "skills/jupyter-workflow/SKILL.md"
-    },
-    {
       "id": "k8s-manifest-generator",
       "name": "k8s-manifest-generator",
       "description": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creat...",
@@ -16941,6 +16920,31 @@
         "quality"
       ],
       "path": "skills/kaizen/SKILL.md"
+    },
+    {
+      "id": "keyword-extractor",
+      "name": "keyword-extractor",
+      "description": "Extracts up to 50 highly relevant SEO keywords from text. Use when user wants to generate or extract keywords for given text.",
+      "category": "business",
+      "tags": [
+        "keyword",
+        "extractor"
+      ],
+      "triggers": [
+        "keyword",
+        "extractor",
+        "extracts",
+        "up",
+        "50",
+        "highly",
+        "relevant",
+        "seo",
+        "keywords",
+        "text",
+        "user",
+        "wants"
+      ],
+      "path": "skills/keyword-extractor/SKILL.md"
     },
     {
       "id": "klaviyo-automation",
@@ -17443,6 +17447,34 @@
       "path": "skills/leiloeiro-risco/SKILL.md"
     },
     {
+      "id": "lex",
+      "name": "lex",
+      "description": "Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding.",
+      "category": "security",
+      "tags": [
+        "legal",
+        "context",
+        "cross-jurisdictional",
+        "compliance",
+        "scaffolding"
+      ],
+      "triggers": [
+        "legal",
+        "context",
+        "cross-jurisdictional",
+        "compliance",
+        "scaffolding",
+        "lex",
+        "centralized",
+        "truth",
+        "engine",
+        "cross",
+        "jurisdictional",
+        "us"
+      ],
+      "path": "skills/lex/SKILL.md"
+    },
+    {
       "id": "libreoffice/base",
       "name": "base",
       "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
@@ -17851,20 +17883,6 @@
       "path": "skills/linux-troubleshooting/SKILL.md"
     },
     {
-      "id": "literature-analysis",
-      "name": "literature-analysis",
-      "description": "Literature Analysis",
-      "category": "general",
-      "tags": [
-        "literature"
-      ],
-      "triggers": [
-        "literature",
-        "analysis"
-      ],
-      "path": "skills/literature-analysis/SKILL.md"
-    },
-    {
       "id": "llm-app-patterns",
       "name": "llm-app-patterns",
       "description": "Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, buildin...",
@@ -18075,6 +18093,31 @@
         "sites"
       ],
       "path": "skills/local-legal-seo-audit/SKILL.md"
+    },
+    {
+      "id": "local-llm-expert",
+      "name": "local-llm-expert",
+      "description": "Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization formats (GGUF, EXL2) and local AI privacy.",
+      "category": "security",
+      "tags": [
+        "local",
+        "llm"
+      ],
+      "triggers": [
+        "local",
+        "llm",
+        "inference",
+        "model",
+        "selection",
+        "vram",
+        "optimization",
+        "deployment",
+        "ollama",
+        "llama",
+        "cpp",
+        "vllm"
+      ],
+      "path": "skills/local-llm-expert/SKILL.md"
     },
     {
       "id": "logistics-exception-management",
@@ -19472,42 +19515,6 @@
       "path": "skills/monorepo-management/SKILL.md"
     },
     {
-      "id": "monte-carlo-treasury",
-      "name": "monte-carlo-treasury",
-      "description": "Monte Carlo Treasury",
-      "category": "general",
-      "tags": [
-        "monte",
-        "carlo",
-        "treasury"
-      ],
-      "triggers": [
-        "monte",
-        "carlo",
-        "treasury"
-      ],
-      "path": "skills/monte-carlo-treasury/SKILL.md"
-    },
-    {
-      "id": "monte-carlo-vulnerability-detection",
-      "name": "monte-carlo-vulnerability-detection",
-      "description": "Monte Carlo Vulnerability Detection",
-      "category": "security",
-      "tags": [
-        "monte",
-        "carlo",
-        "vulnerability",
-        "detection"
-      ],
-      "triggers": [
-        "monte",
-        "carlo",
-        "vulnerability",
-        "detection"
-      ],
-      "path": "skills/monte-carlo-vulnerability-detection/SKILL.md"
-    },
-    {
       "id": "moodle-external-api-development",
       "name": "moodle-external-api-development",
       "description": "Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter va...",
@@ -20352,19 +20359,6 @@
       "path": "skills/notion-template-business/SKILL.md"
     },
     {
-      "id": "numpy",
-      "name": "numpy",
-      "description": "Numpy",
-      "category": "general",
-      "tags": [
-        "numpy"
-      ],
-      "triggers": [
-        "numpy"
-      ],
-      "path": "skills/numpy/SKILL.md"
-    },
-    {
       "id": "nutrition-analyzer",
       "name": "nutrition-analyzer",
       "description": "分析营养数据、识别营养模式、评估营养状况，并提供个性化营养建议。支持与运动、睡眠、慢性病数据的关联分析。",
@@ -20479,21 +20473,6 @@
         "budget"
       ],
       "path": "skills/observability-monitoring-slo-implement/SKILL.md"
-    },
-    {
-      "id": "observe-whatsapp",
-      "name": "observe-whatsapp",
-      "description": "Observe Whatsapp",
-      "category": "general",
-      "tags": [
-        "observe",
-        "whatsapp"
-      ],
-      "triggers": [
-        "observe",
-        "whatsapp"
-      ],
-      "path": "skills/observe-whatsapp/SKILL.md"
     },
     {
       "id": "obsidian-clipper-template-creator",
@@ -21259,22 +21238,6 @@
       "path": "skills/one-drive-automation/SKILL.md"
     },
     {
-      "id": "open-source-context",
-      "name": "open-source-context",
-      "description": "Open Source Context",
-      "category": "general",
-      "tags": [
-        "open",
-        "source"
-      ],
-      "triggers": [
-        "open",
-        "source",
-        "context"
-      ],
-      "path": "skills/open-source-context/SKILL.md"
-    },
-    {
       "id": "openapi-spec-generation",
       "name": "openapi-spec-generation",
       "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
@@ -21299,21 +21262,6 @@
         "api"
       ],
       "path": "skills/openapi-spec-generation/SKILL.md"
-    },
-    {
-      "id": "operational-guidelines",
-      "name": "operational-guidelines",
-      "description": "Operational Guidelines",
-      "category": "general",
-      "tags": [
-        "operational",
-        "guidelines"
-      ],
-      "triggers": [
-        "operational",
-        "guidelines"
-      ],
-      "path": "skills/operational-guidelines/SKILL.md"
     },
     {
       "id": "oral-health-analyzer",
@@ -21356,21 +21304,6 @@
         "debugging"
       ],
       "path": "skills/os-scripting/SKILL.md"
-    },
-    {
-      "id": "osint-evals",
-      "name": "osint-evals",
-      "description": "Osint Evals",
-      "category": "general",
-      "tags": [
-        "osint",
-        "evals"
-      ],
-      "triggers": [
-        "osint",
-        "evals"
-      ],
-      "path": "skills/osint-evals/SKILL.md"
     },
     {
       "id": "oss-hunter",
@@ -21515,31 +21448,34 @@
       "path": "skills/paid-ads/SKILL.md"
     },
     {
-      "id": "pandas",
-      "name": "pandas",
-      "description": "Pandas",
-      "category": "general",
+      "id": "pakistan-payments-stack",
+      "name": "pakistan-payments-stack",
+      "description": "Design and implement production-grade Pakistani payment integrations (JazzCash, Easypaisa, bank/PSP rails, optional Raast) for SaaS with PKR billing, webhook reliability, and reconciliation.",
+      "category": "development",
       "tags": [
-        "pandas"
+        "saas",
+        "payments",
+        "pakistan",
+        "nextjs",
+        "b2b",
+        "pkr",
+        "reconciliation"
       ],
       "triggers": [
-        "pandas"
+        "saas",
+        "payments",
+        "pakistan",
+        "nextjs",
+        "b2b",
+        "pkr",
+        "reconciliation",
+        "stack",
+        "grade",
+        "pakistani",
+        "payment",
+        "integrations"
       ],
-      "path": "skills/pandas/SKILL.md"
-    },
-    {
-      "id": "paper-analysis",
-      "name": "paper-analysis",
-      "description": "Paper Analysis",
-      "category": "general",
-      "tags": [
-        "paper"
-      ],
-      "triggers": [
-        "paper",
-        "analysis"
-      ],
-      "path": "skills/paper-analysis/SKILL.md"
+      "path": "skills/pakistan-payments-stack/SKILL.md"
     },
     {
       "id": "parallel-agents",
@@ -21898,6 +21834,34 @@
       "path": "skills/php-pro/SKILL.md"
     },
     {
+      "id": "pipecat-friday-agent",
+      "name": "pipecat-friday-agent",
+      "description": "Build a low-latency, Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) using Pipecat, Gemini, and OpenAI.",
+      "category": "development",
+      "tags": [
+        "pipecat",
+        "voice",
+        "gemini",
+        "openai",
+        "python"
+      ],
+      "triggers": [
+        "pipecat",
+        "voice",
+        "gemini",
+        "openai",
+        "python",
+        "friday",
+        "agent",
+        "low",
+        "latency",
+        "iron",
+        "man",
+        "inspired"
+      ],
+      "path": "skills/pipecat-friday-agent/SKILL.md"
+    },
+    {
       "id": "pipedrive-automation",
       "name": "pipedrive-automation",
       "description": "Automate Pipedrive CRM operations including deals, contacts, organizations, activities, notes, and pipeline management via Rube MCP (Composio). Always search tools first for current schemas.",
@@ -21998,6 +21962,36 @@
       "path": "skills/planning-with-files/SKILL.md"
     },
     {
+      "id": "playwright-java",
+      "name": "playwright-java",
+      "description": "Scaffold, write, debug, and enhance enterprise-grade Playwright E2E tests in Java using Page Object Model, JUnit 5, Allure reporting, and parallel execution.",
+      "category": "development",
+      "tags": [
+        "playwright",
+        "java",
+        "e2e-testing",
+        "junit5",
+        "page-object-model",
+        "allure",
+        "selenium-alternative"
+      ],
+      "triggers": [
+        "playwright",
+        "java",
+        "e2e-testing",
+        "junit5",
+        "page-object-model",
+        "allure",
+        "selenium-alternative",
+        "scaffold",
+        "write",
+        "debug",
+        "enhance",
+        "enterprise"
+      ],
+      "path": "skills/playwright-java/SKILL.md"
+    },
+    {
       "id": "playwright-skill",
       "name": "playwright-skill",
       "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login ...",
@@ -22094,19 +22088,6 @@
         "data"
       ],
       "path": "skills/polars/SKILL.md"
-    },
-    {
-      "id": "polyfile",
-      "name": "polyfile",
-      "description": "Polyfile",
-      "category": "general",
-      "tags": [
-        "polyfile"
-      ],
-      "triggers": [
-        "polyfile"
-      ],
-      "path": "skills/polyfile/SKILL.md"
     },
     {
       "id": "popup-cro",
@@ -22649,6 +22630,34 @@
       "path": "skills/programmatic-seo/SKILL.md"
     },
     {
+      "id": "progressive-estimation",
+      "name": "progressive-estimation",
+      "description": "Estimate AI-assisted and hybrid human+agent development work with research-backed PERT statistics and calibration feedback loops",
+      "category": "data-ai",
+      "tags": [
+        "estimation",
+        "project-management",
+        "pert",
+        "sprint-planning",
+        "ai-agents"
+      ],
+      "triggers": [
+        "estimation",
+        "project-management",
+        "pert",
+        "sprint-planning",
+        "ai-agents",
+        "progressive",
+        "estimate",
+        "ai",
+        "assisted",
+        "hybrid",
+        "human",
+        "agent"
+      ],
+      "path": "skills/progressive-estimation/SKILL.md"
+    },
+    {
       "id": "project-development",
       "name": "project-development",
       "description": "This skill should be used when the user asks to \"start an LLM project\", \"design batch pipeline\", \"evaluate task-model fit\", \"structure agent project\", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing...",
@@ -22847,23 +22856,6 @@
       "path": "skills/prompt-library/SKILL.md"
     },
     {
-      "id": "proof-of-vulnerability",
-      "name": "proof-of-vulnerability",
-      "description": "Proof Of Vulnerability",
-      "category": "security",
-      "tags": [
-        "proof",
-        "of",
-        "vulnerability"
-      ],
-      "triggers": [
-        "proof",
-        "of",
-        "vulnerability"
-      ],
-      "path": "skills/proof-of-vulnerability/SKILL.md"
-    },
-    {
       "id": "protocol-reverse-engineering",
       "name": "protocol-reverse-engineering",
       "description": "Master network protocol reverse engineering including packet analysis, protocol dissection, and custom protocol documentation. Use when analyzing network traffic, understanding proprietary protocol...",
@@ -22888,23 +22880,6 @@
         "traffic"
       ],
       "path": "skills/protocol-reverse-engineering/SKILL.md"
-    },
-    {
-      "id": "publish-and-summary",
-      "name": "publish-and-summary",
-      "description": "Publish And Summary",
-      "category": "general",
-      "tags": [
-        "publish",
-        "and",
-        "summary"
-      ],
-      "triggers": [
-        "publish",
-        "and",
-        "summary"
-      ],
-      "path": "skills/publish-and-summary/SKILL.md"
     },
     {
       "id": "pubmed-database",
@@ -22956,19 +22931,6 @@
         "defining"
       ],
       "path": "skills/pydantic-models-py/SKILL.md"
-    },
-    {
-      "id": "pygraphistry",
-      "name": "pygraphistry",
-      "description": "Pygraphistry",
-      "category": "general",
-      "tags": [
-        "pygraphistry"
-      ],
-      "triggers": [
-        "pygraphistry"
-      ],
-      "path": "skills/pygraphistry/SKILL.md"
     },
     {
       "id": "pypict-skill",
@@ -23134,23 +23096,6 @@
       "path": "skills/python-pro/SKILL.md"
     },
     {
-      "id": "python-security-auditor",
-      "name": "python-security-auditor",
-      "description": "Python Security Auditor",
-      "category": "security",
-      "tags": [
-        "python",
-        "security",
-        "auditor"
-      ],
-      "triggers": [
-        "python",
-        "security",
-        "auditor"
-      ],
-      "path": "skills/python-security-auditor/SKILL.md"
-    },
-    {
       "id": "python-testing-patterns",
       "name": "python-testing-patterns",
       "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
@@ -23249,20 +23194,6 @@
       "path": "skills/quant-analyst/SKILL.md"
     },
     {
-      "id": "quantitative-analysis",
-      "name": "quantitative-analysis",
-      "description": "Quantitative Analysis",
-      "category": "general",
-      "tags": [
-        "quantitative"
-      ],
-      "triggers": [
-        "quantitative",
-        "analysis"
-      ],
-      "path": "skills/quantitative-analysis/SKILL.md"
-    },
-    {
       "id": "radix-ui-design-system",
       "name": "radix-ui-design-system",
       "description": "Build accessible design systems with Radix UI primitives. Headless component customization, theming strategies, and compound component patterns for production-grade UI libraries.",
@@ -23333,21 +23264,6 @@
         "optimization"
       ],
       "path": "skills/rag-implementation/SKILL.md"
-    },
-    {
-      "id": "rails-upgrade",
-      "name": "rails-upgrade",
-      "description": "Rails Upgrade",
-      "category": "general",
-      "tags": [
-        "rails",
-        "upgrade"
-      ],
-      "triggers": [
-        "rails",
-        "upgrade"
-      ],
-      "path": "skills/rails-upgrade/SKILL.md"
     },
     {
       "id": "react-best-practices",
@@ -23853,20 +23769,6 @@
       "path": "skills/requesting-code-review/SKILL.md"
     },
     {
-      "id": "research-engineer",
-      "name": "research-engineer",
-      "description": "Research Engineer",
-      "category": "general",
-      "tags": [
-        "research"
-      ],
-      "triggers": [
-        "research",
-        "engineer"
-      ],
-      "path": "skills/research-engineer/SKILL.md"
-    },
-    {
       "id": "returns-reverse-logistics",
       "name": "returns-reverse-logistics",
       "description": "Codified expertise for returns authorisation, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management.",
@@ -23966,21 +23868,6 @@
         "analysis"
       ],
       "path": "skills/risk-metrics-calculation/SKILL.md"
-    },
-    {
-      "id": "risk-modeling",
-      "name": "risk-modeling",
-      "description": "Risk Modeling",
-      "category": "security",
-      "tags": [
-        "risk",
-        "modeling"
-      ],
-      "triggers": [
-        "risk",
-        "modeling"
-      ],
-      "path": "skills/risk-modeling/SKILL.md"
     },
     {
       "id": "robius-app-architecture",
@@ -24179,23 +24066,6 @@
       "path": "skills/rust-pro/SKILL.md"
     },
     {
-      "id": "rust-security-auditor",
-      "name": "rust-security-auditor",
-      "description": "Rust Security Auditor",
-      "category": "security",
-      "tags": [
-        "rust",
-        "security",
-        "auditor"
-      ],
-      "triggers": [
-        "rust",
-        "security",
-        "auditor"
-      ],
-      "path": "skills/rust-security-auditor/SKILL.md"
-    },
-    {
       "id": "saas-mvp-launcher",
       "name": "saas-mvp-launcher",
       "description": "Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist.",
@@ -24345,6 +24215,35 @@
         "da"
       ],
       "path": "skills/sam-altman/SKILL.md"
+    },
+    {
+      "id": "sankhya-dashboard-html-jsp-custom-best-pratices",
+      "name": "sankhya-dashboard-html-jsp-custom-best-pratices",
+      "description": "This skill should be used when the user asks for patterns, best practices, creation, or fixing of Sankhya dashboards using HTML, JSP, Java, and SQL.",
+      "category": "data-ai",
+      "tags": [
+        "sankhya",
+        "dashboard",
+        "jsp",
+        "html",
+        "sql",
+        "best-practices"
+      ],
+      "triggers": [
+        "sankhya",
+        "dashboard",
+        "jsp",
+        "html",
+        "sql",
+        "best-practices",
+        "custom",
+        "pratices",
+        "skill",
+        "should",
+        "used",
+        "user"
+      ],
+      "path": "skills/sankhya-dashboard-html-jsp-custom-best-pratices/SKILL.md"
     },
     {
       "id": "sast-configuration",
@@ -24517,19 +24416,6 @@
         "pipelines"
       ],
       "path": "skills/scikit-learn/SKILL.md"
-    },
-    {
-      "id": "scipy",
-      "name": "scipy",
-      "description": "Scipy",
-      "category": "general",
-      "tags": [
-        "scipy"
-      ],
-      "triggers": [
-        "scipy"
-      ],
-      "path": "skills/scipy/SKILL.md"
     },
     {
       "id": "screen-reader-testing",
@@ -24869,23 +24755,6 @@
       "path": "skills/security-scanning-security-sast/SKILL.md"
     },
     {
-      "id": "security-skill-creator",
-      "name": "security-skill-creator",
-      "description": "Security Skill Creator",
-      "category": "security",
-      "tags": [
-        "security",
-        "skill",
-        "creator"
-      ],
-      "triggers": [
-        "security",
-        "skill",
-        "creator"
-      ],
-      "path": "skills/security-skill-creator/SKILL.md"
-    },
-    {
       "id": "security/aws-compliance-checker",
       "name": "aws-compliance-checker",
       "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
@@ -24999,6 +24868,36 @@
         "cli"
       ],
       "path": "skills/security/aws-security-audit/SKILL.md"
+    },
+    {
+      "id": "seek-and-analyze-video",
+      "name": "seek-and-analyze-video",
+      "description": "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
+      "category": "data-ai",
+      "tags": [
+        "video",
+        "ai",
+        "memories",
+        "social-media",
+        "youtube",
+        "tiktok",
+        "analysis"
+      ],
+      "triggers": [
+        "video",
+        "ai",
+        "memories",
+        "social-media",
+        "youtube",
+        "tiktok",
+        "analysis",
+        "seek",
+        "analyze",
+        "content",
+        "large",
+        "visual"
+      ],
+      "path": "skills/seek-and-analyze-video/SKILL.md"
     },
     {
       "id": "segment-automation",
@@ -25149,6 +25048,31 @@
         "express"
       ],
       "path": "skills/senior-architect/SKILL.md"
+    },
+    {
+      "id": "senior-frontend",
+      "name": "senior-frontend",
+      "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+      "category": "development",
+      "tags": [
+        "senior",
+        "frontend"
+      ],
+      "triggers": [
+        "senior",
+        "frontend",
+        "development",
+        "skill",
+        "react",
+        "next",
+        "js",
+        "typescript",
+        "tailwind",
+        "css",
+        "applications",
+        "building"
+      ],
+      "path": "skills/senior-frontend/SKILL.md"
     },
     {
       "id": "senior-fullstack",
@@ -25625,6 +25549,27 @@
       "path": "skills/sexual-health-analyzer/SKILL.md"
     },
     {
+      "id": "shadcn",
+      "name": "shadcn",
+      "description": "Manages shadcn/ui components and projects, providing context, documentation, and usage patterns for building modern design systems.",
+      "category": "architecture",
+      "tags": [
+        "shadcn"
+      ],
+      "triggers": [
+        "shadcn",
+        "manages",
+        "ui",
+        "components",
+        "providing",
+        "context",
+        "documentation",
+        "usage",
+        "building"
+      ],
+      "path": "skills/shadcn/SKILL.md"
+    },
+    {
       "id": "shader-programming-glsl",
       "name": "shader-programming-glsl",
       "description": "Expert guide for writing efficient GLSL shaders (Vertex/Fragment) for web and game engines, covering syntax, uniforms, and common effects.",
@@ -25838,6 +25783,34 @@
         "optimizing"
       ],
       "path": "skills/similarity-search-patterns/SKILL.md"
+    },
+    {
+      "id": "skill-check",
+      "name": "skill-check",
+      "description": "Validate Claude Code skills against the agentskills specification. Catches structural, semantic, and naming issues before users do.",
+      "category": "general",
+      "tags": [
+        "validation",
+        "linter",
+        "agentskills",
+        "skill-authoring",
+        "code-quality"
+      ],
+      "triggers": [
+        "validation",
+        "linter",
+        "agentskills",
+        "skill-authoring",
+        "code-quality",
+        "skill",
+        "check",
+        "validate",
+        "claude",
+        "code",
+        "skills",
+        "against"
+      ],
+      "path": "skills/skill-check/SKILL.md"
     },
     {
       "id": "skill-creator",
@@ -26875,20 +26848,6 @@
         "cac"
       ],
       "path": "skills/startup-metrics-framework/SKILL.md"
-    },
-    {
-      "id": "static-analysis",
-      "name": "static-analysis",
-      "description": "Static Analysis",
-      "category": "general",
-      "tags": [
-        "static"
-      ],
-      "triggers": [
-        "static",
-        "analysis"
-      ],
-      "path": "skills/static-analysis/SKILL.md"
     },
     {
       "id": "statsmodels",
@@ -27949,22 +27908,6 @@
       "path": "skills/test-fixing/SKILL.md"
     },
     {
-      "id": "testing-handbook-skills",
-      "name": "testing-handbook-skills",
-      "description": "Testing Handbook Skills",
-      "category": "testing",
-      "tags": [
-        "handbook",
-        "skills"
-      ],
-      "triggers": [
-        "handbook",
-        "skills",
-        "testing"
-      ],
-      "path": "skills/testing-handbook-skills/SKILL.md"
-    },
-    {
       "id": "testing-patterns",
       "name": "testing-patterns",
       "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
@@ -28808,19 +28751,6 @@
       "path": "skills/ui-visual-validator/SKILL.md"
     },
     {
-      "id": "umap",
-      "name": "umap",
-      "description": "Umap",
-      "category": "general",
-      "tags": [
-        "umap"
-      ],
-      "triggers": [
-        "umap"
-      ],
-      "path": "skills/umap/SKILL.md"
-    },
-    {
       "id": "uncle-bob-craft",
       "name": "uncle-bob-craft",
       "description": "Use when performing code review, writing or refactoring code, or discussing architecture; complements clean-code and does not replace project linter/formatter.",
@@ -29312,23 +29242,6 @@
         "env"
       ],
       "path": "skills/vercel-automation/SKILL.md"
-    },
-    {
-      "id": "vercel-deploy-claimable",
-      "name": "vercel-deploy-claimable",
-      "description": "Vercel Deploy Claimable",
-      "category": "general",
-      "tags": [
-        "vercel",
-        "deploy",
-        "claimable"
-      ],
-      "triggers": [
-        "vercel",
-        "deploy",
-        "claimable"
-      ],
-      "path": "skills/vercel-deploy-claimable/SKILL.md"
     },
     {
       "id": "vercel-deployment",
@@ -30421,19 +30334,6 @@
       "path": "skills/workflow-patterns/SKILL.md"
     },
     {
-      "id": "workflow-skill-design",
-      "name": "workflow-skill-design",
-      "description": "Workflow Skill Design",
-      "category": "workflow",
-      "tags": [
-        "skill"
-      ],
-      "triggers": [
-        "skill"
-      ],
-      "path": "skills/workflow-skill-design/SKILL.md"
-    },
-    {
       "id": "wrike-automation",
       "name": "wrike-automation",
       "description": "Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas.",
@@ -30715,19 +30615,29 @@
       "path": "skills/yann-lecun-tecnico/SKILL.md"
     },
     {
-      "id": "yara-authoring",
-      "name": "yara-authoring",
-      "description": "Yara Authoring",
-      "category": "general",
+      "id": "yes-md",
+      "name": "yes-md",
+      "description": "6-layer AI governance: safety gates, evidence-based debugging, anti-slack detection, and machine-enforced hooks. Makes AI safe, thorough, and honest.",
+      "category": "data-ai",
       "tags": [
-        "yara",
-        "authoring"
+        "yes",
+        "md"
       ],
       "triggers": [
-        "yara",
-        "authoring"
+        "yes",
+        "md",
+        "layer",
+        "ai",
+        "governance",
+        "safety",
+        "gates",
+        "evidence",
+        "debugging",
+        "anti",
+        "slack",
+        "detection"
       ],
-      "path": "skills/yara-authoring/SKILL.md"
+      "path": "skills/yes-md/SKILL.md"
     },
     {
       "id": "youtube-automation",

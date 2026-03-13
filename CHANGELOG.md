@@ -9,6 +9,196 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## Documentation
+
+- Refreshed `README.md` release copy, star milestone badge, and TOC heading alignment so the top-level docs match the current `7.6.0` repository state.
+- Aligned the evergreen English docs with the current `7.6.0` / `1,250+ skills` repository state and removed emoji from active H2 headers to keep anchors stable under the maintenance rules.
+
+## [7.6.0] - 2026-03-12 - "Maintenance Sweep"
+
+> **Merged community PRs, documented Windows truncation recovery, and hardened Metasploit setup guidance**
+
+This release finishes a focused maintenance sweep across open pull requests and issues. It merges four community updates, ships the Jetski/Gemini overflow and path-safety documentation from the context overflow fix, adds a Windows recovery guide for truncation crash loops, and removes the non-deterministic Metasploit installer flow from the security skill.
+
+## New Skills
+
+- **acceptance-orchestrator** — acceptance-driven execution orchestration (PR #277)
+- **closed-loop-delivery** — delivery workflow with feedback loops (PR #277)
+- **create-issue-gate** — issue creation quality gate (PR #277)
+- **interview-coach** — interview preparation and coaching (PR #272)
+
+## Improvements
+
+- **PR maintenance**: Merged PRs #277, #272, #275, #278, and #271 using GitHub squash merge so all contributors receive merge credit.
+- **Jetski/Gemini loader docs**: Documented `overflowBehavior` handling and `skillsRoot`-confined path validation in the reference loader and integration guide (PR #271).
+- **Windows recovery docs**: Added `docs/users/windows-truncation-recovery.md` and linked it from the main user docs for truncation/context crash loops on Windows.
+- **Metasploit safety**: Replaced the remote installer pattern in `skills/metasploit-framework/SKILL.md` with an explicit "Metasploit must already be installed" prerequisite, and marked the skill as `risk: offensive` with the required warning.
+- **Repo sync**: Refreshed README metadata, generated registry files, and contributor acknowledgements before release.
+
+## Credits
+
+- **[@qcwssss](https://github.com/qcwssss)** for `acceptance-orchestrator`, `closed-loop-delivery`, and `create-issue-gate` (PR #277)
+- **[@dbhat93](https://github.com/dbhat93)** for `interview-coach` (PR #272)
+- **[@rafsilva85](https://github.com/rafsilva85)** for the credit source addition (PR #275)
+- **[@iftikharg786](https://github.com/iftikharg786)** for the star-history update branch that was refreshed and merged as PR #278
+- **[@DiggaX](https://github.com/DiggaX)** for the Windows recovery workflow shared in issue #274
+- **[@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)** for the Jetski/Gemini overflow loader changes in PR #271
+
+## [7.5.0] - 2026-03-11 - "Socratic Governance"
+
+> **Introducing Truth Engines, Local Inference optimizations, and Advanced Output Formatting**
+
+This release brings major architectural skills for local inferences, cross-jurisdictional legal logic, and advanced document structuring to help your AI agents operate securely and systematically.
+
+## 🚀 New Skills
+
+### ⚖️ [lex](skills/lex/)
+**Cross-Jurisdictional Legal Logic Engine**
+A truth engine for navigating complex legal contexts across different jurisdictions without hallucinations.
+
+### 🛡️ [skill-check](skills/skill-check/)
+**Validation for agentskills.io Specification**
+A read-only skill that validates SKILL.md files against the agentskills specification and Anthropic best practices.
+
+### 🔑 [keyword-extractor](skills/keyword-extractor/)
+**Extract High-Quality SEO Keywords**
+Provides agents with the ability to extract up to 50 high-quality, ranked keywords from any text payload.
+
+### 🧠 [local-llm-expert](skills/local-llm-expert/)
+**Mastery over Local Inference & VRAM Optimization**
+Authoritative guidance on running, configuring, and optimizing large language models locally on consumer and enterprise hardware.
+
+### ✅ [yes-md](skills/yes-md/)
+**AI Governance at the Formatting Layer**
+Instructs generative agents on how to navigate complex formatting rules with a focus on governance and output fidelity.
+
+### 📝 [ai-md](skills/ai-md/)
+**Convert CLAUDE.md to AI-Native Format**
+A sophisticated transformation skill for AI documentation, battle-tested across 4 frontier models.
+
+### 🤔 [explain-like-socrates](skills/explain-like-socrates/)
+**Socratic-Style Concept Explanations**
+Transforms the agent into a Socratic tutor, engaging users in dialogue to teach complex concepts through questioning.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors for making this release possible:
+- **@sx4im** for `local-llm-expert`
+- **@sstklen** for `yes-md` and `ai-md`
+- **@tejasashinde** for `keyword-extractor` and `explain-like-socrates`
+- **@Olga Safonova** for `skill-check`
+
+---
+
+
+- **pipecat-friday-agent** — Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) with Pipecat, Gemini, and OpenAI.
+
+---
+
+## [7.4.1] - 2026-03-10 - "Documentation Consistency & Workflow Fixes"
+
+> **Resolved comprehensive documentation consistency issues and integrated community AI tools.**
+
+This patch release focuses on bringing the entire repository's documentation into strict compliance with the newly established maintenance protocols. It resolves conflicting skill counts, aligns the documentation "trinity", fixes workflow routing paths, and standardizes formats to prevent anchor breakage. It also includes new community skills like the `pipecat-friday-agent` and workflow enhancements.
+
+## 🚀 New Skills
+
+### 🤖 [pipecat-friday-agent](skills/pipecat-friday-agent/)
+
+**Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.).**
+Built with Pipecat, Google Gemini, and OpenAI, providing a blueprint for creating interactive voice-driven agents.
+
+### ⏱️ [progressive-estimation](skills/progressive-estimation/)
+
+**Agentic workflow for progressive task estimation.**
+Breaks down complex tasks to improve estimation accuracy and project planning.
+
+### 🎥 [seek-and-analyze-video](skills/seek-and-analyze-video/)
+
+**AI-powered video analysis toolkit.**
+Automates seeking and analyzing of video content, extracting key insights and moments.
+
+## 📦 Improvements
+
+- **Documentation Consistency**: Full audit and remediation of `.github/MAINTENANCE.md` rules.
+- **TOC Formatting**: Removed emojis from H2 headers in `README.md` to fix broken markdown anchors.
+- **Statistics Alignment**: Synced skill counts across `package.json` and `README.md` for accurate representation (1,239+).
+- **Workflow Routing**: Added the `design-ddd-core-domain` workflow to required path definitions and copy-paste examples in `skills/antigravity-workflows/SKILL.md`.
+- **Validation**: Passed all sync chains including `npm run validate:references`.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@Enreign** for `progressive-estimation`
+- **@kennyzheng-builds** for `seek-and-analyze-video`
+
+---
+
+## [7.4.0] - 2026-03-10 - "Planning & Dashboards"
+
+> **Blueprint planning skill, Sankhya dashboard best‑practices, and registry sync to 1,236+ skills.**
+
+This release focuses on better multi-session planning and domain dashboards. It adds a Blueprint skill for cold-start construction plans that any coding agent can execute, plus a Sankhya dashboard best-practices skill with SQL/JSP and UI guidance. The registry, catalog, and README counts are synced to 1,236+ skills, and the web app build is verified clean for this version.
+
+## 🚀 New Skills
+
+### 🧱 [blueprint](skills/blueprint/)
+
+**Cold-start construction planning for multi-step projects.**
+Generates dependency-aware plans where every step has its own context brief, tasks, rollback, verification, and exit criteria so fresh agents can execute steps independently.
+
+### 📊 [sankhya-dashboard-html-jsp-custom-best-pratices](skills/sankhya-dashboard-html-jsp-custom-best-pratices/)
+
+**Sankhya dashboard structure, SQL/JSP patterns, and UI best practices.**
+Documents resilient dashboard patterns, recommended SQL/JSP layout, and UX guidelines for production Sankhya deployments.
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking **1,236+** skills across the catalog.
+- **Docs & Catalog**: `README.md`, `skills_index.json`, `data/catalog.json`, and `CATALOG.md` regenerated and validated for 7.4.0.
+- **Web App**: `npm run app:build` run successfully to ensure the skills browser is up to date.
+
+## 👥 Credits
+
+- **@antbotlab** for `blueprint` (PR #259).
+- **@Guilherme-ruy** for the Sankhya dashboard skill (PR #258).
+
+---
+
+## [7.2.0] - 2026-03-08 - "Community PR Harvest & Cleanup"
+
+> **Eight PRs merged: 44 broken skills removed, zebbern attribution restored, Chinese docs, new skills (audit-skills, senior-frontend, shadcn, frontend-slides update, pakistan-payments-stack), and explainable auto-categorization.**
+
+This release cleans up the registry (removal of 44 SKILL.md files that contained only "404: Not Found"), restores `author: zebbern` attribution to 29 security skills, and merges community contributions: Simplified Chinese documentation, audit-skills, senior-frontend and shadcn skills, frontend-slides dependencies and formatting, pakistan-payments-stack for Pakistani SaaS payments, and explainable auto-categorization in the index generator. Bundle references were updated to drop missing skills so reference validation passes.
+
+## New Skills
+
+- **audit-skills** — Audit-safe skills (PR #236)
+- **senior-frontend** — React, Next.js, TypeScript, Tailwind (PR #233)
+- **shadcn** — shadcn/ui ecosystem (PR #233)
+- **pakistan-payments-stack** — JazzCash, Easypaisa, PKR billing (PR #228)
+
+## Improvements
+
+- **Registry cleanup**: 44 broken "404: Not Found" skill files removed (PR #240).
+- **Attribution**: `author: zebbern` restored for 29 security skills (PR #238).
+- **Docs**: frontend-slides updated with missing deps and formatting (PR #234); Simplified Chinese docs added (PR #232).
+- **Index**: Explainable auto-categorization in `generate_index.py` (PR #230).
+- **Bundles**: `data/bundles.json` updated to remove references to removed or missing skills; `npm run validate:references` passes.
+- **Registry**: Now tracking **1,232** skills.
+
+## Credits
+
+- **@munir-abbasi** for Chinese docs (PR #232)
+- **@itsmeares** for senior-frontend, shadcn (PR #233), frontend-slides update (PR #234)
+- **@zebbern** for security skills attribution (PR #238)
+- Contributors behind PRs #228, #230, #236, #240
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
 ---
 
 ## [7.1.0] - 2026-03-07 - "PR Harvest & README Integrity"
